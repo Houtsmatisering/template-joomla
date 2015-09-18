@@ -1,0 +1,492 @@
+/* CSS Document - Developed by Fabio Rocha (http://solutibrasil.com.br | contato@solutibrasil.com.br) */
+
+* {
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    background: #fff;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+a,
+a:active {
+    color: #666;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+article {
+    float: right;
+    padding: 50px 0;
+    width: 100%;
+}
+article ol,
+article ul {
+    padding: 0 0 10px 20px;
+}
+article p {
+    line-height: 1.5em;
+    padding: 0 0 10px;
+    text-align: justify;
+}
+article.bothbar {
+    display: inline-block;
+    float: none;
+    width: 60%;
+}
+article.leftbar,
+article.rightbar {
+    width: 80%;
+}
+article.rightbar {
+    float: left;
+}
+aside {
+    width: 20%;
+}
+aside.left {
+    float: left;
+    padding: 50px 50px 50px 0;
+}
+aside.right {
+    float: right;
+    padding: 50px 0 50px 50px;
+}
+button,
+input[type="button"],
+input[type="submit"] {
+    background: #000;
+    clear: both;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 100%;
+    height: 44px;
+    margin: 20px 0 0;
+    padding: 0 15px;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    background: #333;
+}
+code {
+    background: #F8F8F8;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 0 3px;
+}
+dd {
+    float: left;
+    padding: 0 0 2px;
+}
+dt {
+    clear: left;
+    float: left;
+    font-weight: bold;
+    margin: 0 5px 0 0;
+}
+fieldset {
+    background: #fcfcfc;
+    border: 1px solid #eee;
+    clear: both;
+    display: table;
+    margin: 10px 0 20px;
+    padding: 15px;
+}
+form {
+    margin: 10px 0;
+}
+footer,
+footer a {
+    color: #999;
+}
+footer a:hover {
+    color: #ccc;
+}
+footer > a {
+    float: right;
+}
+footer dl {
+    float: left;
+}
+h1 {
+    text-align: center;
+    margin: 10px 0;
+}
+h1 a {
+
+	background: url(../images/logo.png) no-repeat 0 0;
+	height: 100px;
+	text-indent: 0px;
+	width: 157px;
+	text-align: center;
+}
+h2 {
+    padding: 10px 0;
+}
+h3,
+h4,
+h5 {
+    padding: 20px 0 10px;
+}
+input[type="email"],
+input[type="file"],
+input[type="number"],
+input[type="password"],
+input[type="text"] {
+    border: 1px solid #ddd;
+    height: 44px;
+    margin: 0 0 18px;
+    padding: 0 5px;
+}
+input[type="email"]:focus,
+input[type="file"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #aaa;
+}
+label {
+    margin: 0 0 2px;
+    padding: 0 2px 0 0;
+}
+nav {
+    float: left;
+}
+nav a {
+    border-bottom: 1px solid #333;
+    color: #333;
+    display: block;
+    font-size: 150%;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+}
+nav a:hover,
+nav .active a {
+    border-bottom: 1px solid #999;
+    color: #999;
+    text-decoration: none;
+}
+nav li {
+    float: left;
+    list-style: none;
+    margin: 0 0 0 30px;
+}
+p {
+    line-height: 1.5em;
+    padding: 0 0 5px;
+}
+section > div {
+    min-height: 400px;
+}
+select {
+    border: 1px solid #ddd;
+    height: 44px;
+    margin: 0 0 18px;
+}
+select option {
+    padding: 3px 5px;
+}
+select[multiple="multiple"] {
+    height: auto;
+}
+select[multiple="multiple"] option {
+    padding: 5px;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    padding: 5px;
+}
+textarea {
+    border: 1px solid #ddd;
+    font-size: 100%;
+    height: 130px;
+    margin: 1px 0 5px;
+    padding: 0 5px;
+    width: 480px;
+}
+ul {
+    line-height: 1.5em;
+}
+ul ul {
+    padding: 0 0 0 15px;
+}
+#breadcrumbs {
+	display: inline-block;
+	width: 100%;
+}
+#breadcrumbs li {
+	float: left;
+	list-style: none;
+}
+#breadcrumbs p {
+	float: left;
+	margin: 0 5px 0 0;
+}
+#breadcrumbs ul.breadcrumb {
+	float: left;
+	padding: 0;
+}
+#breadcrumbs .divider {
+	padding: 0 3px;
+}
+#search {
+	clear: right;
+	float: right;
+	margin: 10px 0 0;
+	width: 165px;
+}
+#search button {
+	clear: none;
+	float: left;
+	height: 27px;
+	margin: 6px 0 0;
+	padding: 0 0 3px;
+	width: 40px;
+}
+#search form {
+	margin: 0;
+}
+#search input[type="text"] {
+	border: 1px solid #ddd;
+	float: left;
+	font-size: 95%;
+	height: 25px;
+	margin: 6px 0 0;
+	text-indent: 3px;
+	width: 117px;
+}
+.container {
+	clear: both;
+	margin: 0 auto;
+	overflow: hidden;
+    padding: 50px;
+    width: 100%;
+}
+.element-invisible {
+	display: block;
+	height: 0;
+	margin: 0;
+    padding: 0;
+	text-indent: -9000px;
+	width: 0;
+}
+
+/* Joomla Structure */
+dl.article-info {
+	color: #666;
+    font-size: 90%;
+	padding: 0 0 20px;
+}
+h1.page-title {
+    width: 100%;
+}
+ul.actions {
+	float: right;
+}
+ul.actions li {
+    float: left;
+    list-style: none;
+    margin: 0 0 0 8px;
+}
+ul.actions li a {
+    display: block;
+    height: 16px;
+    text-indent: -9000px;
+    width: 16px;
+}
+ul.actions li:hover a {
+    opacity: 0.6;
+}
+ul.actions li.email-icon a {
+    background: url(../images/icon-email.png) 0 0 no-repeat;
+}
+ul.actions li.print-icon a {
+    background: url(../images/icon-print.png) 0 0 no-repeat;
+}
+#system-message-container .alert p {
+    margin: 0 0 5px;
+    padding: 5px 10px;
+}
+#system-message-container .alert.alert-error p {
+    background: #FFDDDD;
+}
+#system-message-container .alert.alert-notice p {
+    background: #BFDDF2;
+}
+#system-message-container .close {
+    cursor: pointer;
+    float: right;
+}
+.accordion-group {
+    display: inline-block;
+    margin: 0 0 30px;
+    width: 100%;
+}
+.accordion-heading {
+    padding: 0 0 10px;
+}
+.btn-toolbar > div {
+    float: left;
+}
+.contact-address {
+    display: inline-block;
+}
+.page-header {
+	display: inline-block;
+	width: 100%;
+}
+.pagination {
+    font-size: 95%;
+    padding: 20px 0 0;
+}
+.pagination li {
+    float: left;
+    list-style: none;
+}
+.searchintro {
+    clear: both;
+}
+.tip-title {
+    font-weight: bold;
+}
+.tip-wrap {
+    background: #FEF8CF;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    color: #555;
+    font-size: 95%;
+    padding: 6px 10px;
+}
+.tooltip {
+    display: none !important;
+}
+
+/* Media-queries */
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    body {
+        color: #000;
+        font: 9pt serif;
+        line-height: 1.4em;
+    }
+    h1 {
+        width: 100%;
+    }
+    h1 a:after {
+        content: "";
+    }
+    img {
+        max-width: 100%;
+    }
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+    p a {
+        word-wrap: break-word;
+    }
+}
+@media screen and (min-width: 1440px) {
+}
+@media screen and (max-width: 940px) {
+    article,
+    aside.left,
+    aside.right {
+        display: inline-block;
+        float: none !important;
+        padding: 25px 0;
+        width: 100% !important;
+    }
+    footer > a {
+        margin: 50px 0 0;
+    }
+	h1 {
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+    h1 a {
+        text-align: center;
+        background: url(../images/logo.png) no-repeat center 0;
+        width: 100%;
+    }
+    nav {
+        display: inline-block;
+        float: none;
+        height: auto;
+        margin: 50px 0 0;
+        width: 100%;
+    }
+    nav a {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    nav li {
+    	float: none;
+        margin: 0;
+        width: 100%;
+    }
+	.container {
+		max-width: 95%;
+		min-width: 95%;
+	}
+}
+
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px), only screen and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    article,
+    aside.left,
+    aside.right {
+        float: none;
+        padding: 25px 0;
+        width: 98%;
+    }
+    section > div {
+        min-height: 40px;
+    }
+    .container {
+        max-width: 95%;
+        min-width: 95%;
+    }
+}
